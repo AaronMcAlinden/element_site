@@ -1,0 +1,1185 @@
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+li{list-style:none}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =============================================================================
+   PARTICLE CSS
+   ========================================================================== */
+
+/* ---- base ---- */
+
+html,body{ 
+	width:100%;
+	height:100%;
+	background:#313841;
+ overflow-x: hidden;
+}
+
+html{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+
+
+/* ---- stats.js ---- */
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+
+
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #313841;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+/* =============================================================================
+   MY CSS
+   ========================================================================== */
+
+
+
+
+.logo_align	{
+	position: relative;
+	width: 50%;
+	max-width: 250px;
+	margin: 0 auto;
+	top: 35%;
+	
+}
+
+#logo	{
+	
+	height:auto;
+	display: block;
+	position: absolute;
+ 
+ 
+	
+
+	
+}
+
+
+
+
+
+
+.arrow_align	{
+	
+	position: relative;
+	width: 30px;
+	max-width: 250px;
+margin: 0 auto;
+	top: 85%;
+	display: block;
+	
+}
+
+#arrow	{
+
+	display: block;
+	position: absolute;
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.views
+
+{
+	
+	font-family: sans-serif;
+	font-weight: 100;
+	color: white;
+	margin: 0 auto 0 auto;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	align-content: center;
+	display: block;
+	
+	
+}
+
+
+
+a {
+	
+	text-decoration: none;
+  
+}
+
+
+
+
+ul a	{
+	position: relative;
+	 padding-bottom: .5em;
+	color: inherit;
+	border-bottom: none;
+}
+
+
+
+ul a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+	
+  border-bottom: 2px solid transparent;
+  -moz-border-image: -moz-linear-gradient(left, #F74D66 10%, #2FEFFF 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #F74D66 10%, #2FEFFF 100%);
+  border-image: linear-gradient(to right, #F74D66 10%, #2FEFFF 100%);
+  border-image-slice: 1;
+	
+  transition: 0.2s;
+	
+	
+	
+	
+	
+}
+
+
+/*
+a:active	{
+	 border-bottom: 2px solid transparent;
+  -moz-border-image: -moz-linear-gradient(left, #F74D66 10%, #2FEFFF 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #F74D66 10%, #2FEFFF 100%);
+  border-image: linear-gradient(to right, #F74D66 10%, #2FEFFF 100%);
+  border-image-slice: 1;
+	
+*/
+	
+}
+
+
+
+
+/*
+.symbol{
+	border-bottom: 2px solid transparent;
+  -moz-border-image: -moz-linear-gradient(left, #F74D66 10%, #2FEFFF 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #F74D66 10%, #2FEFFF 100%);
+  border-image: linear-gradient(to right, #F74D66 10%, #2FEFFF 100%);
+  border-image-slice: 1;
+}
+
+
+.symbol:hover {border-bottom:0;}
+*/
+
+
+
+
+
+.views li	{ margin:
+	
+
+}
+
+li	{
+display: block;
+ margin: 2em 0;
+}
+
+li p	{
+	display: inline-block;
+}
+
+
+
+ul	{
+	padding-bottom: 4em;
+	display: inline-block;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+/*=========================== PERIODIC TABLE STYLES ===========================*/
+
+
+
+
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content:center;
+		max-width: 1000px;
+		margin: 0 auto;
+}
+
+.flex-item {
+  
+	border: solid;
+	border-width: 2px;
+  padding: 5px;
+  width: 150px;
+  height: 150px;
+ 
+		margin: 30px 30px 30px 30px;
+  line-height: 150px;
+  text-align: center;
+	
+}
+		
+		
+		div h1, div p{
+			font-family: "fira-sans";
+			
+		}
+		
+		
+		div h1{
+			font-size: 40px;
+			margin: 0 auto;
+			display: inline;
+			font-weight: 200;
+			padding-right: 10px;
+			
+		}
+		
+		div p	{
+			font-size: 11px;
+			display:inline;
+			font-size: 12px;
+			font-weight: 400;
+		}
+		
+
+		
+		
+		.box	{
+			border: solid;
+			border-width: 2px;
+			width: 12px;
+			height: 12px;
+			opacity:0;
+			margin-right: 2px;
+			
+		}
+
+
+.top_div	{
+	display:inline;
+}
+
+.lt{
+margin-top: -70px;
+height: 11px;
+text-transform: uppercase;
+letter-spacing: 3px;
+	
+}
+
+.tr{
+	margin-top: -70px;
+height: 11px;
+	
+	
+}
+
+.bottom_div	{
+	display: inline;
+}
+
+.bot	{
+	
+margin-top: 131px;
+	
+}
+
+.bot2{
+height: 11px;
+margin-top: 70px;
+	
+}
+
+
+.left{
+	float:left;
+	
+}
+
+.right	{
+	float:right;
+}
+
+
+
+
+
+
+
+
+
+/*====================== ELEMENT PAGE STYLES ======================*/
+
+
+.logo2	{
+ 
+ width: 80px;
+ height: auto;
+ margin: 15px;
+ display: block;
+ 
+}
+
+
+
+.element_content	{
+ width: 90%;
+ margin: 4em auto 0 auto;
+ font-family: "fira-sans";
+ color: #fff;
+ 
+}
+
+.heading	{
+ display: block;
+ max-width: 90%;
+}
+
+
+
+.text_container	{
+ margin-top:3em;
+ display: inline-block;
+ width: 60%;
+ float:left;
+ 
+}
+
+
+
+.atomic_structure	{
+ 
+ width: 250px;
+ display: absolute;
+ float:right;
+
+
+ 
+}
+
+.atom_img	{
+ 
+ -webkit-animation:spin3 .5s linear 1;
+    -moz-animation:spin3 .5s linear 1;
+    animation:spin3 .5s linear 1;
+ animation-duration: 3s;
+ animation-iteration-count: infinite;
+ 
+
+	
+	
+
+
+
+}
+
+
+.animated	{
+ animation-iteration-count: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@-moz-keyframes spin3 { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin3 { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin3 { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+
+
+
+
+
+
+.element_h1	{
+ 
+ letter-spacing: 20px;
+ font-weight: 600;
+ text-transform: uppercase;
+ font-size: 4;
+ 
+}
+
+.class_box	{
+ 
+ margin-top: 2em;
+ margin-right: .5em;
+ 
+ height: 25px;
+ width: 25px;
+ 
+ display: inline-block;
+ 
+ 
+}
+
+
+.hydrogen_box	{
+
+border: solid 2px #86FFB9;
+
+}
+
+
+
+.helium_box	{
+
+border: solid 2px #FFFCA8;
+
+}
+
+.lithium_box	{
+ 
+ border: solid 2px #FA2525
+}
+.class_name	{
+ 
+ display: inline;
+ 
+
+ 
+}
+
+
+.boron_box	{
+ 
+ 
+ border: solid 2px #3188FF;
+}
+
+
+.class_name p	{
+ text-transform: uppercase;
+ letter-spacing: 5px;
+ font-size: 35px;
+ font-family "fira-sans";
+ font-weight: 100;
+}
+
+
+
+
+
+
+
+
+.values	{
+ 
+ margin: 0 auto 2em -2em;
+ float:left;
+ 
+ 
+display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content:flex-start;
+ 
+ 
+}
+
+
+.val	{
+ 
+ margin: 2em;
+ display: inline-block;
+ width: 135px;
+
+ 
+}
+
+.value	{
+ text-transform: uppercase;
+ font-size: 40px;
+ letter-spacing: 3px;
+}
+
+.val_title	{
+ text-transform: uppercase;
+ letter-spacing: 3px;
+}
+
+
+
+
+
+
+
+
+
+/*====================== HOVER EFFECTS ======================*/
+
+
+
+ul a:hover:after	{
+	
+	width: 100%;
+	 
+	
+	
+}
+
+
+
+
+.flex-item:hover .box {
+	;opacity: 1;
+	transition:.7s;
+
+	
+	
+	-webkit-animation:spin .5s linear .25;
+    -moz-animation:spin .5s linear .25;
+    animation:spin .5s linear .25;
+	
+	-webkit-animation-delay: .29s; 
+    animation-delay: .29s;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+
+
+
+
+
+
+
+.one:hover {
+	border-color: rgba(247, 77, 102, 1);
+	color:rgba(247, 77, 102, 1);
+	transition: .7s;
+	opacity: 1 !important;
+	
+}
+
+
+
+
+.two:hover{
+	border-color: rgba(247, 77, 102, 1);
+	color:rgba(247, 77, 102, 1);
+	transition: .7s;
+}
+
+
+
+
+.three:hover{
+	border-color: rgba(234, 88, 112, 1);
+	color:rgba(234, 88, 112, 1);
+	transition: .7s;
+}
+
+
+.four:hover{
+	border-color: rgba(217, 101, 125, 1);
+	color:rgba(217, 101, 125, 1);
+	transition: .7s;
+}
+
+
+.five:hover{
+	border-color: rgba(217, 101, 125, 1);
+	color:rgba(217, 101, 125, 1);
+	transition: .7s;
+}
+
+
+.six:hover{
+	border-color: rgba(188, 125, 147, 1);
+	color:rgba(188, 125, 147, 1);
+	transition: .7s;
+}
+
+
+.seven:hover{
+	border-color: rgba(151, 186, 206, 1);
+	color:rgba(151, 186, 206, 1);
+	transition: .7s;
+}
+
+
+.eight:hover{
+	border-color: rgba(115, 206, 221, 1);
+	color:rgba(115, 206, 221, 1);
+	transition: .7s;
+}
+
+
+
+.nine:hover{
+	border-color: rgba(120, 223, 234, 1);
+	color:rgba(120, 223, 234, 1);
+	transition: .7s;
+}
+
+.ten:hover{
+	border-color: rgba(88, 223, 240, 1);
+	color:rgba(88, 223, 240, 1);
+	transition: .7s;
+}
+
+
+
+
+.eleven:hover{
+	border-color: rgba(47, 239, 255, 1);
+	color:rgba(47, 239, 255, 1);
+	transition: .7s;
+}
+
+
+
+.twelve:hover{
+	border-color: rgba(47, 239, 255, 1);
+	color:rgba(47, 239, 255, 1);
+	transition: .7s;
+}
+
+
+
+.classification:hover .class_box{
+
+-webkit-animation:spin2 .5s linear .25;
+    -moz-animation:spin2 .5s linear .25;
+    animation:spin2 .5s linear .25;
+	
+	-webkit-animation-delay: 0; 
+    animation-delay: 0;
+ 
+
+
+}
+
+
+
+@-moz-keyframes spin2 { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin2 { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin2 { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+
+
+
+
+
+
+
+/*====================== menu hover effects ========================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========================= ELEMENT COLORS =====================*/
+
+
+
+
+
+
+
+
+
+/*=====symbol view====*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=====symbol view====*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*============================
+KEY_STYLES
+====================*/
+
+.key	{
+	
+	margin: 0 auto 5em auto;
+	
+}
+
+
+
+.mass{
+	
+	width: 80%;
+	max-width: 835px;
+
+	
+	margin: 0 auto;
+	
+	
+	
+	border-bottom: 2px solid transparent;
+  -moz-border-image: -moz-linear-gradient(left, #F74D66 10%, #2FEFFF 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #F74D66 10%, #2FEFFF 100%);
+  border-image: linear-gradient(to right, #F74D66 10%, #2FEFFF 100%);
+  border-image-slice: 1;
+}
+
+
+.mass_container	{
+	margin-top: 7em;
+}
+
+
+.mass p	{
+	color: #fff;
+	letter-spacing: 3px;
+	margin-top: -20px;
+	font-weight:100;
+	text-transform: uppercase;
+	
+	
+	
+}
+
+.light	{
+	float: left;
+}
+
+
+.heavy	{
+	float: right;
+}
+
+
+
+.classkey	{
+	width: 80%;
+	
+	max-width: 835px;
+	margin: 0 auto 5em auto;
+	
+	
+
+	display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: wrap;
+  justify-content:flex-start;
+		max-width: 1000px;
+	
+	
+}
+
+
+.cube	{
+	height: 20px;
+	width: 20px;
+	border: solid 2px;
+}
+
+
+
+
+
+
+.classname {
+	
+	display: block;
+	color: #FFF;
+	font-weight: 100;
+	font-size: 10px;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height:13px;
+	vertical-align: top;
+	float: left;
+	padding-left: 4px;
+	height: 0px;
+ width: 90px;
+	
+	
+	
+}
+
+
+
+
+
+
+.fbox	{
+	
+	display: inline-block;
+	float:left;
+}
+
+.cell	{
+	
+	margin: 20px 40px;
+
+
+}
+
+
+
+/*=====================
+KEY COLOURS
+======================*/
+
+
+
+
+.alkmet	{
+	border-color: #FA2525;
+	
+}
+
+
+
+.alkert	{
+	border-color: #FD006B;
+	
+}
+
+
+
+.ptrans	{
+	border-color: #FF95AD;
+	
+}
+
+
+
+
+.trans	{
+	border-color: #AC93FF;
+	
+}
+
+
+
+.met	{
+	border-color: #3188FF;
+	
+}
+
+
+
+.lath	{
+	border-color: #64BCFC;
+	
+}
+
+
+
+.act	{
+	border-color: #3BF1FE;
+	
+}
+
+
+
+.dia	{
+	border-color: #86FFB9;
+	
+}
+
+.nob	{
+	border-color: #FFFCA8;
+
+}
+
+.oth	{
+	border-color: #FF5E38;
+	
+}
+
+
+
+
+
+
+
+
+/*=====================
+ANIMATION
+======================*/
+
+
+
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+ -webkit-animation-iteration-count: 1 !important;
+ animation-duration: 1.5s !important;
+}
+
+
+
+
+
+
+
+
+
+.animated {
+  -webkit-animation-duration: .7s;
+  animation-duration: .7s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes bounce {
+  0%, 100% {
+    -webkit-transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-8px);
+  }
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+	
+	
+
+	
+	
+	
+	
+	/*=====================
+*****MEDIA_QUERIES*****
+======================*/
+	
+
+
+	
+	
+	
+	

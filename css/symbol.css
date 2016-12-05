@@ -1,0 +1,288 @@
+.symbol	{
+
+	 border-bottom: 2px solid transparent;
+  -moz-border-image: -moz-linear-gradient(left, #F74D66 10%, #2FEFFF 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #F74D66 10%, #2FEFFF 100%);
+  border-image: linear-gradient(to right, #F74D66 10%, #2FEFFF 100%);
+  border-image-slice: 1;
+	
+}
+
+
+
+
+
+
+
+/*=====================
+REST STATES
+=====================*/
+
+
+
+.one h1	{
+	color:rgba(247, 77, 102, 1);
+}
+
+.one{
+	border-color: rgba(247, 77, 102, .25);
+	color:rgba(247, 77, 102, 0);
+	
+	
+}
+
+
+.h	{
+	border-color: rgba(134, 255, 185, 1);
+}
+
+
+
+
+
+
+
+.two h1	{
+	color:rgba(247, 77, 102, 1);
+}
+
+
+.two{
+	border-color: rgba(247, 77, 102, .25);
+	color:rgba(247, 77, 102, 0);
+}
+
+.he	{
+	border-color: rgba(255, 252, 162, 1);
+}
+
+
+
+
+
+
+
+.three{
+	border-color: rgba(234, 88, 112, .25);
+	color:rgba(234, 88, 112, 0);
+}
+
+
+.lith	{
+	border-color: #FA2525;
+}
+
+/*=====symbol view====*/
+
+
+.three h1	{
+	color:rgba(247, 77, 102, 1);
+}
+
+
+
+
+
+.four{
+	border-color: rgba(217, 101, 125, .25);
+	color:rgba(217, 101, 125, 0);
+}
+
+.b	{
+	border-color: #3188FF;
+}
+
+/*=====symbol view====*/
+
+
+.four h1	{
+	color:rgba(217, 101, 125, 1);
+}
+
+
+
+
+.five{
+	border-color: rgba(217, 101, 125, .25);
+	color:rgba(217, 101, 125, 0);
+}
+
+.o	{
+	border-color: #86FFB9;
+}
+
+/*=====symbol view====*/
+
+
+.five h1	{
+	color:rgba(217, 101, 125, 1);
+	
+}
+
+
+
+.six{
+	border-color: rgba(188, 125, 147, .25);
+	color:rgba(188, 125, 147, 0);
+}
+
+.al	{
+	border-color: #FF95AD;
+}
+
+
+/*=====symbol view====*/
+
+
+.six h1	{
+	color:rgba(188, 125, 147, 1);
+}
+
+
+
+
+
+.seven{
+	border-color: rgba(151, 186, 206, .25);
+	color:rgba(151, 186, 206, 0);
+}
+
+.sc	{
+	border-color: #AC93FF;
+}
+
+/*=====symbol view====*/
+
+
+.seven h1	{
+	color:rgba(151, 186, 206, 1);
+}
+
+
+
+
+
+
+.eight{
+	border-color: rgba(115, 206, 221, .25);
+	color: rgba(115, 206, 221, 0);
+}
+
+.se	{
+	border-color: #FF5E38;
+}
+
+/*=====symbol view====*/
+
+
+.eight h1	{
+	color:rgba(115, 206, 221, 1);
+}
+
+
+
+
+.nine{
+	border-color: rgba(120, 223, 234, .25);
+	color: rgba(120, 223, 234, 0);
+}
+
+.cs	{
+	border-color: #FA2525;
+}
+
+/*=====symbol view====*/
+
+
+.nine h1	{
+	color:rgba(120, 223, 234, 1);
+}
+
+
+
+
+
+.ten{
+	border-color: rgba(88, 223, 240, 0.25);
+	color:rgba(88, 223, 240, 0);
+}
+
+.ac	{
+	border-color: #3BF1FE;
+}
+
+
+/*=====symbol view====*/
+
+
+.ten h1	{
+	color:rgba(88, 223, 240, 1);
+	padding-left: 12px;
+}
+
+
+
+
+
+
+.eleven{
+	border-color: rgba(47, 239, 255, .25);
+	color:rgba(47, 239, 255, 0);
+	
+	
+	
+}
+
+.u	{
+	border-color: #3BF1FE;
+}
+
+
+/*=====symbol view====*/
+
+
+.eleven h1	{
+	color:rgba(47, 239, 255, 1);
+	padding-left: 12px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.twelve{
+	border-color: rgba(47, 239, 255, .25);
+	color:rgba(47, 239, 255, 0);
+	
+	
+	
+}
+
+.pu	{
+	border-color: #3BF1FE;
+}
+
+
+/*=====symbol view====*/
+
+
+.twelve h1	{
+	color:rgba(47, 239, 255, 1);
+	padding-left: 12px;
+
+}
+
+
+
+
+
+
+
+
+
